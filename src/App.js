@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./styles.css";
-import axios from "axios";
 
 export default function App() {
   const [quote, setQuote] = useState({});
